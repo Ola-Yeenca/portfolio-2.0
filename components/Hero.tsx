@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
@@ -11,7 +12,7 @@ type Props = {}
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-    'Hello, name is Ola Yinka ',
+    'Hello, I am Ola Yinka ',
     'Developer',
     'Designer',
     'Freelancer'
