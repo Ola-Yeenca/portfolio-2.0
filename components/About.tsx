@@ -51,11 +51,13 @@ export default function About({}: Props) {
           </h4>
 
           <p className='text-base'>
-            I'm Timothy Olaonipekun Omoniyi. I'm a software Engineer
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Totam explicabo autem, ratione corporis accusantium delectus
-            quo perferendis. Cumque corrupti quisquam recusandae magni error
-            fugit repellat vitae unde? Vel, vitae neque.
+          My name is <span className=''>Timothy Olaonipekun Omoniyi.</span>
+          Transitioning into the tech world in 2022, I fell in love with
+          Python programming language (still in progress), learning at home
+          with Udemy and other online resources which then led me to Le Wagon Bootcamp.
+          At Le Wagon Barcelona completed my program as a Full stack Developer. I learnt
+          and worked on some cool projects there as a group/team and currently working on
+          some personal projects too.
           </p>
         </div>
     </motion.div>

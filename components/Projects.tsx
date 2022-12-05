@@ -25,7 +25,9 @@ export default function Projects({}: Props) {
       <div className='
       relative w-full flex
       overflow-x-scroll overflow-y-hidden
-      snap-x snap-mandatory z-20'>
+      snap-x snap-mandatory z-20 scrollbar-thin
+      scrollbar-track-gray-400/20
+      scrollbar-thumb-[#53B3CB]/80'>
         {projects.map((project, i) => (
           <div className='
           w-screen flex-shrink-0 snap-center
@@ -43,7 +45,7 @@ export default function Projects({}: Props) {
 
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
               <h4 className='text-2xl font-semibold text-center'>
-                <span  className='underline decoration-[#F7AB0A]/50'>Case Study {i + 1} of {projects.length}:</span> Air Office (Just like AirBnB)
+                <span  className='underline decoration-[#53B3CB]/50'>Case Study {i + 1} of {projects.length}:</span> Air Office (Just like AirBnB)
               </h4>
             </div>
 
@@ -64,7 +66,7 @@ export default function Projects({}: Props) {
 
       <div className='
       w-full absolute top-[30%]
-    bg-[#F7AB0A]/10 left-0 h-[500px]
+    bg-[#53B3CB]/10 left-0 h-[500px]
     -skew-y-12' />
     </motion.div>
   )
